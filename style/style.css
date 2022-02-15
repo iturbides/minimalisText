@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+html {
+    position: relative;
+    min-height: 100%;
+    }
+
+.content img {
+	filter: grayscale(1);
+}
+
+body {
+	background-color: #f3eee4;
+	font-family: 'Libre Baskerville', serif;
+	padding: 0;
+	margin: 0;
+}
+
+.contenedor {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .30em;
+	padding-right: .30em;
+}
+
+
+div.header {
+	background-color: #f3eee4;
+	font-size: 2.2em;
+	font-weight: bold;
+	font-family: 'Libre Baskerville', serif;
+
+}
+
+p {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: 1.5;
+}
+
+.archivo {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+   	font-size: 1.3em;
+    	line-height: 1.5em;
+    	text-decoration: none;
+	margin-left: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.archivo a:link, .archivo a:visited {
+	color: #303033;
+	text-decoration: none;
+}
+
+
+.articulos {
+	margin-left: auto;
+	list-style-type: none;
+	line-height: 1.2em;
+	color: #303033;
+	text-decoration: none;
+}
+
+.articulos a:link, .articulos a:visited {
+	color: #303033;
+}
+
+@media screen and (min-width: 625px) {
+  .f1:first-of-type::first-letter {
+	display:block;
+	font-size: 5.9em;
+	float: left;
+	line-height: 7.5rem;
+	padding-right: .5rem;
+	margin-bottom: 0rem;
+	font-weight: 700;
+	text-shadow: 3px 3px 2px #a9a9a9;
+	color: #303033;
+	vertical-align: text-top;
+	position:relative;
+
+    }
+}
+
+h3, h4, h5, h6 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+}
+
+h1, h2 {
+	font-size: 1.5em;
+	font-weight: 700;
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.2em;
+	text-decoration: none;
+	color: #66190a;
+
+}
+
+
+h2 a:visited, h2 a:link {
+	color: #66190a;
+	text-decoration: none;
+}
+
+
+p a:link {
+	color: #20a4de;
+	text-decoration: none;
+}
+
+p a:visited {
+	color: #20a4de;
+	text-decoration: none;
+}
+
+.header  a:link, .header a:visited {
+    color: #20a4de;
+    text-decoration: none;
+}
+
+
+h4, h5, h6 {
+	color: #303033;
+	text-decoration: none;
+}
+
+h3, body {
+	text-decoration: none;
+    color: #47484b;
+}
+
+.header img {
+    max-width: 20px;
+    margin-left: 0px;
+    max-height: 30px;
+
+}
+
+ .responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+.bajofooter {
+	font-size: .8em;
+}
+
+.paginacion {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: .8em;
+}
+
+.coffe img, .line img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 150px;
+}
+
+.entradilla {
+	font-size: 1.1em;
+}
+
+.hand {
+	float: left;
+}
+
+.contenedor2 {
+	background-color: #f6e5bd;
+
+}
+
+.footer {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: .30em;
+	padding-right: .30em;
+
+}
+
+

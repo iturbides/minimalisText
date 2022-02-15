@@ -1,0 +1,31 @@
+---
+layout: main
+title: Archivo
+pagination:
+    data: collections.posts
+    size: 20
+    alias: posts
+    reverse: true
+---
+<h2>Archivo</h2>
+<div class="archivo">
+<ul>
+{% for post in posts %}
+<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ul>
+</div>
+<div class="paginacion">
+<p>
+    {% if pagination.href.previous %}
+    <a href="{{ pagination.href.previous }}"> ⟪-- </a>
+    {% else %}
+   ⟪--
+    {% endif %} ∬
+    {% if pagination.href.next %}
+    <a href="{{ pagination.href.next }}">--⟫</a>
+    {% else %}
+    --⟫
+    {% endif %}
+</p>
+</div>
