@@ -2,6 +2,7 @@
 title: MinimalisText 
 layout: main
 ---
+<h1>Texto de prueba</h1>
 {% assign posts = collections.posts | reverse %}
 {% for post in posts limit:1 %}
 	<h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
